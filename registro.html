@@ -7,6 +7,13 @@
     <title>Registrarse</title>
     <!-- <link rel="stylesheet" href="./assets/styles.css" /> -->
     <link rel="stylesheet" href="./assets/registro.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
     <header class="header">
@@ -24,11 +31,30 @@
       <h1>Registrarse</h1>
       <form class="form">
         <!-- <h1>Registrarse</h1> -->
-        <input type="text" placeholder="Nombre y Apellido" />
-        <input type="text" placeholder="Direccion" />
-        <input type="tel" placeholder="Telefono" />
-        <input type="email" placeholder="Email" />
-        <input type="password" placeholder="password" />
+        <div class="i-container">
+          <input type="text" placeholder="Nombre y Apellido" />
+          <i class="fa-solid fa-person"></i>
+        </div>
+
+        <div class="i-container">
+          <input type="text" placeholder="Direccion" />
+          <i class="fa-solid fa-map-location-dot"></i>
+        </div>
+
+        <div class="i-container">
+          <input type="tel" placeholder="Telefono" />
+          <i class="fa-solid fa-phone"></i>
+        </div>
+
+        <div class="i-container">
+          <input type="email" placeholder="Email" />
+          <i class="fa-solid fa-envelope"></i>
+        </div>
+
+        <div class="i-container">
+          <input type="password" placeholder="Password" />
+          <i class="fa-solid fa-lock i-form"></i>
+        </div>
 
         <a href="../login.html"> Registrarse</a>
       </form>

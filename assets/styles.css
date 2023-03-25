@@ -22,7 +22,7 @@
 .header{
     background: var(--background);
     width: 100%;
-    max-width: 1400px;
+    /* max-width: 1200px; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -191,11 +191,11 @@
 
 main{
     background-color: var(--background);
-    max-width: 1400px;
-    /* display: flex;
+    /* max-width: 1400px; */
+    display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center; */
+    justify-content: space-between;
+    align-items:stretch 
 }
 
 /* hero */
@@ -267,7 +267,7 @@ main{
     flex-direction: column;
     text-align: center;
     padding: 70px 20px;
-    max-width: 1400px;
+    /* max-width: 1400px; */
     /* width: 90%; */
     gap: 20px;
     
@@ -307,7 +307,7 @@ main{
  
 #products{
     padding: 70px 0px;
-    max-width: 1400px;
+    /* max-width: 1400px; */
     display: flex;
     justify-content: center;
     align-items: center;
@@ -334,7 +334,7 @@ main{
 
 .product {
     /* background: var(--secondary); */
-    padding: 40px 20px;
+    padding: 60px 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
