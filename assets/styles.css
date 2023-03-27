@@ -335,6 +335,7 @@ main{
 .product {
     /* background: var(--secondary); */
     padding: 60px 40px;
+    /* padding: 40px 20px; */
     display: flex;
     flex-direction: column;
     justify-content: center;

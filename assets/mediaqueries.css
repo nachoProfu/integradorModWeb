@@ -99,6 +99,10 @@
         #products h2{
             font-size: 26px;
         }
+
+        .product{
+            padding: 30px 20px;
+        }
     
         /* agregar resolucion mas pequeña para carrito aca */
 
